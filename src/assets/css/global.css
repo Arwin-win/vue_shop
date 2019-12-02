@@ -1,0 +1,23 @@
+/* 全局样式，对所有的组件全部生效 */
+*{
+    margin:0;
+    padding:0;
+}
+html,body,#app{
+    height:100%;
+}
+
+.el-card{
+    margin:10px;
+    box-shadow: 0 0  1px #ccc !important;
+  }
+
+.el-table{
+    margin-top: 15px;
+}
+
+
+.el-cascader-menu{
+    height:240px;
+}
+

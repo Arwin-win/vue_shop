@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        canvas{
+            border:1px solid green;
+        }
+    </style>
+</head>
+<body>
+    <canvas width="600" height="400"></canvas>
+    <script>
+        // 太底层了
+        //刮刮卡
+        //画画差不多 画布 画笔 画的是一个路径 还要填充一下
+        var canvas = document.querySelector('canvas')
+        var huabi = canvas.getContext('2d');
+        huabi.fillRect(10,10,60,40)
+    </script>
+</body>
+</html>
